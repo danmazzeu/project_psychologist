@@ -1,2 +1,0 @@
-# psicologas
-# project_psychologist
