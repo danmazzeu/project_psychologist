@@ -1,0 +1,39 @@
+:root {
+    /* Colors */
+    --theme-color: #d8b891;
+    --theme-variation-color: #2e9894;
+    --primary-color: #000;
+    --secondary-color: #555;
+    --tertiary-color: #999;
+    --stars-color: #2e9894;
+    --linkedin-color: #0a66c2;
+    --instagram-color: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    --whatsapp-color: #128c7e;
+  
+    /* Global Setup */
+    --border-radius: 15px;
+    --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --transition: all 0.3s ease-in-out;
+  
+    /* Body Setup */
+    --body-background: #f5f5f5;
+  
+    /* Container Setup */
+    --container-width: 1200px;
+    --container-gap: 30px;
+  
+    /* Card Setup */
+    --card-background: #fff;
+  
+    /* List */
+    --list-color: #000;
+    --list-border: 1px dashed var(--theme-color);
+    --list-background: #f9f9f9;
+  
+    /* Image */
+    --image-border: 5px solid #fff;
+  
+    /* Button */
+    --button-color: #fff;
+    --button-background: var(--theme-variation-color);
+}

@@ -1,0 +1,19 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    border: var(--list-border);
+    width: fit-content;
+    color: var(--list-color);
+    background-color: var(--list-background);
+}

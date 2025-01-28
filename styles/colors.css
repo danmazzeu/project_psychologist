@@ -1,0 +1,17 @@
+.theme-color { color: var(--theme-color); }
+.primary-color { color: var(--primary-color) }
+.secondary-color { color: var(--secondary-color) !important; }
+.tertiary-color { color: var(--tertiary-color) !important; }
+.stars-color { color: var(--stars-color) !important; }
+
+.linkedin-color { color: var(--linkedin-color); }
+
+.instagram-color { 
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatsapp-color { color: var(--whatsapp-color) !important; }

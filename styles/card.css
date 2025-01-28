@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--card-background);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    scale: 1.01;
+    transform: rotate(2deg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

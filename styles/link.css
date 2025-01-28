@@ -1,0 +1,7 @@
+.link,
+.link:visited {
+    color: var(--theme-variation-color);
+    font-weight: 500;
+    transition: var(--transition);
+    text-decoration: underline !important;
+}

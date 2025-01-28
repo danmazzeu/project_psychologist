@@ -1,0 +1,10 @@
+img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border: var(--image-border);
+    transition: var(--transition);
+}
+
+img:hover { scale: 1.05; }

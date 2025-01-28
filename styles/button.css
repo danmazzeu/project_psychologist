@@ -1,0 +1,14 @@
+.button,
+.button:visited {
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: var(--border-radius);
+    color: var(--button-color);
+    background-color: var(--button-background);
+    transition: var(--transition);
+}
+
+.button:hover,
+.button:active {
+    scale: 1.05;
+}
